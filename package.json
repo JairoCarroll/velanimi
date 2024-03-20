@@ -1,0 +1,23 @@
+{
+  "name": "velanimi",
+  "version": "1.0.0",
+  "description": "Monorepo containing numerical codecs and arbitraries",
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JairoCarroll/velanimi.git"
+  },
+  "author": "WillardDouglas",
+  "license": "ISC",
+  "homepage": "https://github.com/JairoCarroll/velanimi.git",
+  "pre-commit": "lint-staged-packages",
+  "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
+    "multi-semantic-release": "^2.11.0",
+    "patch-semantic-release-npm-for-msr": "^1.0.0",
+    "semantic-release": "^18.0.1",
+    "typescript": "^4.3.5"
+  }
+}
